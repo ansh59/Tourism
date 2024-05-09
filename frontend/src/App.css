@@ -1,0 +1,49 @@
+
+/* Import Dancing Script font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Define font-family */
+.dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Apply font-family to elements */
+.demon{
+  color: rgba(15, 14, 14, 0.44);
+font-family: Damion;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+/* Hide the vertical scrollbar in WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide all scrollbars for Firefox */
+body {
+  scrollbar-width: none;
+}
+
+/* Hide all scrollbars for Internet Explorer 10+ */
+body {
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar for a specific element */
+.element-class {
+  overflow: hidden;
+}
+
+.navtxt{
+  color: #000;
+
+font-family: "Cormorant Upright";
+
+font-style: normal;
+
+line-height: normal;
+letter-spacing: 1.6px;
+}
